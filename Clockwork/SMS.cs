@@ -49,6 +49,10 @@ namespace Clockwork
         /// </remarks>        
         public InvalidCharacterAction? InvalidCharacterAction { get; set; }
 
+        public DlrType DlrType { get; set; }
+        public string DlrUrl { get; set; }
+        public string DlrContent { get; set; }
+
         /// <summary>
         /// Create a single text message
         /// </summary>

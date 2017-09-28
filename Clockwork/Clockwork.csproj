@@ -40,6 +40,7 @@
     <Compile Include="AccountType.cs" />
     <Compile Include="API.cs" />
     <Compile Include="Balance.cs" />
+    <Compile Include="DlrType.cs" />
     <Compile Include="InvalidCharacterAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SMS.cs" />
@@ -57,9 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="APIException.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Clockwork.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

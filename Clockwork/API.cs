@@ -134,7 +134,10 @@ namespace Clockwork
                     Long                = sms.Long ?? Long,
                     Truncate            = sms.Truncate ?? Truncate,
                     InvalidCharAction   = sms.InvalidCharacterAction ?? InvalidCharacterAction,
-                    WrapperID           = wrapperId++
+                    WrapperID           = wrapperId++,
+                    DlrType             = (int)sms.DlrType,
+                    DlrUrl              = sms.DlrUrl,
+                    DlrContent          = sms.DlrContent
                 });                
             }
 

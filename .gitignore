@@ -100,3 +100,4 @@ packages/
 !Clockwork/bin/Release/Clockwork.dll
 
 *.nupgk
+/.vs

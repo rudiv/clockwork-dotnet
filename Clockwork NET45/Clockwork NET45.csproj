@@ -102,6 +102,9 @@
       <Link>XML\SMS_Resp.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\Clockwork\DlrType.cs">
+      <Link>DlrType.cs</Link>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
